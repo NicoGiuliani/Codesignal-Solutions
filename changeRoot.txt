@@ -1,0 +1,10 @@
+You are given an array A of length n specifying a tree. The vertices of the tree are numbered from 0 to n - 1 and parent[i] is the parent of the ith node.
+The root of the tree is the vertex v, the parent of which is the same vertex (i.e. parent[v] = v if and only if v is a root).
+
+What will the parent array look like if the edges remain the same, but tree is rooted at the other vertex passed in as the second argument?
+
+For example, if A = [0, 0, 0, 1, 1, 1, 2, 2, 7], changeRoot(A, 7) will make 7 the main root of the tree, shifting other elements accordingly. 
+
+changeRoot(A, 7) = [2, 0, 7, 1, 1, 1, 2, 7, 7]
+
+For a diagram of this transformation, view changeRoot.diagram.png
